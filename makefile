@@ -15,5 +15,8 @@ create:
 install:
 	docker-compose run --rm nuxt yarn
 
+generate:
+	docker-compose run --rm nuxt yarn generate
+
 sh:
 	docker-compose run --rm nuxt sh
